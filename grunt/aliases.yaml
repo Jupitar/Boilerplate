@@ -1,0 +1,11 @@
+default:
+- 'build'
+
+build:
+- 'clean'
+- 'concurrent:lint'
+- 'concurrent:compile-1st-pass'
+- 'concurrent:compile-2nd-pass'
+- 'concurrent:compile-3rd-pass'
+- 'concurrent:compile-4th-pass'
+- 'concurrent:min'

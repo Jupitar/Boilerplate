@@ -1,2 +1,2 @@
 # Boilerplate
-Boilerplate Web App Build
+Basic Web App Boilerplate
